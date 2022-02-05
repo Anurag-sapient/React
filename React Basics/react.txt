@@ -1,0 +1,58 @@
+React- it is a javacript library becuase it has less option as compared to framework
+-we can build single page application
+-renders only specific part and it is fast
+-arrow functions
+-let x=(arg1,arg2)=>{}
+-export using which can be used by other files also
+-export default 
+-using import we can use in file import {function/data} from './file.js'
+-{data as d,function as f}->giving alias name function or data
+
+-browser run-javascript
+-computer run -nodejs
+
+start react-
+npx create-react-app app-name
+npm start
+
+jsx feature of react offering the html with javascript
+important files index.js--> index.html
+
+{variable name}=so that we could use this in react
+props for accessing parents to child data transferred
+-props.children get children written stuff
+-props.classname get classes of children
+export defualt could be used only once in one jsx/js file for particular function and could be accessed in other file by same name
+
+For states-
+use import React from 'react'
+click-->onClick 
+props donot changes just by assigning the value
+use->prefix ones are all hooks
+
+--helps in changing variables/props 
+useState(any_variable) -->return variable,function(to change title)
+let [var,func]=useState(props.title)
+func('hiii')
+now var=hii and can be used instead of props.title
+
+onChange-used for reflecting the changes done to input and get it using event.target.value ->for inputs
+onSubmit- for forms
+event.preventdefault()-->prevents defaut behaviour and for forms prevent refreshing
+
+two way binding-take and set data
+
+transfer data from child to parent--->
+-we can send function from parent to child using props
+and give object in function so that we can get into parent that object
+
+for making dynamic data we need backend languages dynamic saves even after refreshing
+using api send data and retrieve and saves it
+
+backend developer will give url and we can take the url and get data through api and store in object using fetch converting into json
+
+-->useEffect(()=>{},[])->solves repeating problem
+-->useEffect(function to be performed,[var(when this variable is changed)])->blank means [] only one time executed
+
+
+
