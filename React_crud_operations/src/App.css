@@ -1,0 +1,28 @@
+
+.main{
+  height: 50vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  font-style:italic;
+  color:red;
+}
+.texts{
+  height: 25vh;
+  color:red;
+  font-weight:bold;
+  font-size: 40px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align:center;
+
+}
+.form-css{
+  display: flex;padding:10px;
+  
+  justify-content: center;
+  align-items: center;
+}
